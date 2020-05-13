@@ -40,7 +40,7 @@ function main() {
     let out = sortRoyalNames(names);
     out = out.join('\n') + '\n';
 
-    console.log(out);
+    console.log(out, '\n');
     result.push(out);
   }
 
