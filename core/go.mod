@@ -1,4 +1,4 @@
-module github.com/padepokan/core
+module github.com/code-runner-platform/core
 
 go 1.13
 

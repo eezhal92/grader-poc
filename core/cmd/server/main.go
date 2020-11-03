@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/padepokan/core/pkg/server"
+	"github.com/code-runner-platform/core/pkg/server"
 )
 
 func main() {

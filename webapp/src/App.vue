@@ -1,8 +1,7 @@
 <template>
   <div id="app">
-    <div id="nav" class="mb-6">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/assignment">Assignment</router-link>
+    <div id="nav" class="px-6 py-4">
+      <router-link class="text-blue-600 hover:text-blue-500" to="/">Home</router-link>
     </div>
     <router-view/>
   </div>

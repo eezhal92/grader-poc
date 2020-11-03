@@ -1,10 +1,10 @@
 package server
 
 import (
+	"github.com/code-runner-platform/core/internal/assignment"
+	runner "github.com/code-runner-platform/core/internal/test_runner"
 	"github.com/gofiber/cors"
 	"github.com/gofiber/fiber"
-	"github.com/padepokan/core/internal/assignment"
-	runner "github.com/padepokan/core/internal/test_runner"
 )
 
 type submitRequest struct {
