@@ -4,7 +4,7 @@ module.exports = {
   configureWebpack: {
     plugins: [
       new MonacoWebpackPlugin({
-        languages: ["go", "javascript", "python"],
+        languages: ["go", "javascript", "python", "html"],
       }),
     ],
   }
