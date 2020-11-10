@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "jest --runInBand --detectOpenHandles --useStderr --forceExit --json --outputFile=test-result.json"
   },
   "keywords": [],

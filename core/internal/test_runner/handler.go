@@ -10,9 +10,9 @@ import (
 
 func getImageName(language string) (string, error) {
 	langMap := map[string]string{
-		"golang": "padepokan-golang-runner:v1",
-		"nodejs": "padepokan-nodejs-runner:v1",
-		"python": "padepokan-python-runner:v1",
+		"golang": "cr-golang-runner:v1",
+		"nodejs": "cr-nodejs-runner:v1",
+		"python": "cr-python-runner:v1",
 	}
 
 	if imageName, ok := langMap[language]; ok {
